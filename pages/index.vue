@@ -96,7 +96,7 @@ useHead({
 </script>
 
 <template>
-  <!-- ✅ Added pt-24 to push below sticky navbar -->
+  <!-- ✅ Added pt-24 to push below sticky NavBar -->
   <div class="pb-20 pt-24 px-4 md:px-8">
     <!-- 🌟 Title -->
     <h1 class="text-3xl font-bold mb-6 text-indigo-600 dark:text-indigo-400 text-center">

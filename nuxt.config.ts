@@ -19,6 +19,8 @@ export default defineNuxtConfig({
   // ✅ App-wide <head> configuration
   app: {
     head: {
+      title: 'RecipeHub 🍳',
+      meta: [{ name: 'description', content: 'Discover, search, and favorite recipes easily!' }],
       link: [
         {
           rel: 'stylesheet',

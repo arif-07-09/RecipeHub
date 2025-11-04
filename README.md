@@ -1,43 +1,79 @@
-# 🍳 RecipeHub
+<<<<<<< HEAD
+# RecipeHub
+=======
+# Nuxt Minimal Starter
 
-**RecipeHub** is a modern recipe discovery platform built with **Nuxt 4**, **TailwindCSS**, and **TypeScript**.  
-You can search, filter, and save your favorite recipes — powered by the **TheMealDB API**.  
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-It features light/dark mode, pagination, filtering, and favorites management — all in a sleek, responsive UI.
+## Setup
 
----
+Make sure to install dependencies:
 
-## 🚀 Features
-
-✅ Search recipes by name or ingredient  
-✅ Filter by category (Chicken, Beef, Dessert, etc.)  
-✅ Sort results (A–Z / Z–A)  
-✅ Pagination with smooth navigation  
-✅ Favorite recipes saved locally  
-✅ Dark / Light mode toggle  
-✅ Responsive UI (mobile-first design)  
-✅ Built using Nuxt 4 + Pinia + TailwindCSS
-
----
-
-## 🧠 Tech Stack
-
-| Category | Technology |
-|-----------|-------------|
-| Framework | [Nuxt 4](https://nuxt.com) |
-| Language | TypeScript |
-| Styling | TailwindCSS |
-| State Management | Pinia |
-| API | [TheMealDB API](https://www.themealdb.com/api.php) |
-| Deployment | [Vercel](https://vercel.com) |
-
----
-
-## ⚙️ Setup Instructions
-
-Make sure you have **Node.js (v18+)** installed.
-
-### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/arif-07-09/RecipeHub.git
-cd RecipeHub
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+>>>>>>> b8bdc10 (Third commit)
