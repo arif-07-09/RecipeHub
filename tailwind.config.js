@@ -7,6 +7,9 @@ export default {
     './pages/**/*.vue',
     './app.vue',
     './error.vue',
+    './store/**/*.{js,ts}',       // ✅ Include stores
+    './plugins/**/*.{js,ts}',     // ✅ Include plugins
+    './composables/**/*.{js,ts}', // ✅ Include composables
   ],
   theme: {
     extend: {
