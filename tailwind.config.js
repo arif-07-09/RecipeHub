@@ -1,6 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'class', // enables 'dark:' mode manually
+  safelist: [
+    // ✅ Keep grid and responsive layouts
+    'grid',
+    'sm:grid-cols-2',
+    'md:grid-cols-3',
+    'lg:grid-cols-4',
+    'gap-6',
+    'px-2',
+    'md:px-6',
+  ],
   content: [
     './components/**/*.{vue,js,ts}',
     './layouts/**/*.vue',
